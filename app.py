@@ -1,7 +1,7 @@
 import streamlit as st
 from textblob import TextBlob
 
-st.tittle("Simple Sentiment Analysis")
+st,tittle("Simple Sentiment Analysis")
 
 text = st.text_areal("Enter a Sentence or review:")
 if st.button("Analyze"):
